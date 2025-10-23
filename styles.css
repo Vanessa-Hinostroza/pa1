@@ -12,17 +12,6 @@ body{
     margin:auto;
 }
 
-#contenedor{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin: 20px auto;
-    padding: 15px;
-    border:3px solid rgb(0, 0, 0);
-    color: black;
-    gap: 20px;
-}
-
 #cabecera{
     display: flex;
     flex-direction: row;
@@ -77,7 +66,17 @@ h2{
     align-items: stretch;
     gap: 20px;
     flex-wrap: wrap;
-   
+}
+
+#contenedor{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 20px auto;
+    padding: 15px;
+    border:3px solid rgb(0, 0, 0);
+    color: black;
+    gap: 20px;
 }
 
 .html, .css, .js{
@@ -158,4 +157,5 @@ font-style:oblique;
     box-shadow: 10px 10px 5px gray;
 
 }
+
 
